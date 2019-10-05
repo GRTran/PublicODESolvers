@@ -1,0 +1,3 @@
+IOERR = 1: An incorrect number of inputs into the Lorenz system of equations when executing SetODEParameters, number of input parameters in matrix should be 3
+IOERR = 2: The input parameters for the lorenz system of equations have not been pointed to. The SetODEParameters subroutine must be executed first.
+IOERR = 3: The gradient array input from the solver has not been allocated causing a memory leak in the ODE class that is being used to calculate the gradient
